@@ -12,6 +12,10 @@ import org.pageclass.LogOutPage;
 import org.pagemanager.PageManager;
 
 public class SnapDealExecutionClass  {
+	private void tc02() {
+		System.out.println("dev excution");
+
+	}
     public static void main(String[] args) throws IOException, InterruptedException {
 		BaseClass baseClass=new BaseClass();
 		PageManager pageManager=new PageManager();
