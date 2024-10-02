@@ -12,6 +12,10 @@ import org.pageclass.LogOutPage;
 import org.pagemanager.PageManager;
 
 public class SnapDealExecutionClass  {
+	private void tco1() {
+		System.out.println("qa execution");
+
+	}
     public static void main(String[] args) throws IOException, InterruptedException {
 		BaseClass baseClass=new BaseClass();
 		PageManager pageManager=new PageManager();
@@ -68,6 +72,7 @@ public class SnapDealExecutionClass  {
         	baseClass.excelReportgetRowcreateCell1(7, 1, "searchPage is appeared");
         }
         baseClass.getScreenShot();
+       
     }
 	
 }
